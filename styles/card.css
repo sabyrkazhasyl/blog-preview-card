@@ -44,3 +44,20 @@
   font-size: 14px;
   color: var(--color-gray-950);
 }
+
+@media (max-width: 500px) {
+  .card {
+    max-width: 327px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card {
+    max-width: 281px;
+  }
+
+  .card__category,
+  .card__published-date {
+    font-size: 12px;
+  }
+}

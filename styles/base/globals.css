@@ -25,3 +25,13 @@ a {
 a:hover {
   color: var(--color-yellow);
 }
+
+@media (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
